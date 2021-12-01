@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  margin: 1px;
+}
+
+.navbar {
+  position: fixed;
+  min-width: 150px;
+  width: 250px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  overflow-y: scroll;
+  background-color: black;
+}
+
+.main-doc {
+  position: relative;
+  margin-left: 257px;
+  padding: 20px;
+  margin-bottom: 110px;
+  background-color: ivory;
+}
+
+li {
+  color: blanchedalmond;
+}
+
+header {
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: tomato;
+  margin-bottom: 10px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-underline-position: unset;
+}
+
+li:hover {
+  color: blanchedalmond;
+  background-color: red;
+}
+
+.heading-wrap {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.li-wrap {
+  color: blanchedalmond;
+}
+
+.li-wrap:hover {
+  color: blanchedalmond;
+  background-color: red;
+}
