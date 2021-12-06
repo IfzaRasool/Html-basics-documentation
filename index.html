@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Html Basic Documentation</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    
+ <nav class="navbar">
+    <header>HTML Basics Documentation</header>
+  <ul>
+      <li><a href="#introduction">Introduction to HTML</a><hr/></li>
+          
+      <li> <a href="#HTMLtextfundamentals">HTML text fundamentals</a><hr/></li>
+     
+      <li> <a href="#Creatinghyperlinks">Creating hyperlinks</a><hr/></li>
+      
+      <li><a href="#Advancedtextformatting">Advanced text formatting</a><hr/></li>
+      
+      <li><a href="#HTMLtables">HTML tables</a><hr/></li>
+      
+      <li><a href="#HTMLtablebasics">HTML table basics</a><hr/></li>
+      
+  </ul>
+ </nav>
+ <main class="main-doc">
+    <section class="main-section" id="introduction"><h1>Introduction to HTML</h1>
+      <p> In this article we cover the absolute basics of HTML. To get you started, this article defines elements, attributes, and all the other important terms you may have heard. It also explains where these fit into HTML. You will learn how HTML elements are structured, how a typical HTML page is structured, and other important basic language features. Along the way, there will be an opportunity to play with HTML too!</p> </section>
+       <p>Before starting this module, you don't need any previous HTML knowledge, but you should have at least basic familiarity with using computers and using the web passively (i.e., just looking at it and consuming content). You should have a basic work environment set up (as detailed in Installing basic software), and understand how to create and manage files (as detailed in Dealing with files). Both are parts of our Getting started with the web complete beginner's module.</p>
+      <section class="main-section" id="HTMLtextfundamentals"><h1>HTML text fundamentals</h1>
+        <p>One of HTML's main jobs is to give text structure so that a browser can display an HTML document the way its developer intends. This article explains the way HTML can be used to structure a page of text by adding headings and paragraphs, emphasizing words, creating lists, and more.</p>
+        <p>Most structured text consists of headings and paragraphs, whether you are reading a story, a newspaper, a college textbook, a magazine, etc.</p>
+    </section>
+        
+
+    <section class="main-section" id="Creatinghyperlinks"><h1>Creating hyperlinks</h1>
+       <p>Hyperlinks are really important — they are what makes the Web a web. This article shows the syntax required to make a link, and discusses link best practices.</p>
+    <p>Hyperlinks are one of the most exciting innovations the Web has to offer. They've been a feature of the Web since the beginning, and are what makes the Web a web. Hyperlinks allow us to link documents to other documents or resources, link to specific parts of documents, or make apps available at a web address. Almost any web content can be converted to a link so that when clicked or otherwise activated the web browser goes to another web address (URL).</p> </section>
+   <p>A basic link is created by wrapping the text or other content, see Block level links, inside an element and using the href attribute, also known as a Hypertext Reference, or target, that contains the web address.</p>
+
+    <code> <span>I will teach you how to use hypertext</span></code>
+   
+    <section id="Advancedtextformatting"><h1>Advanced text formatting</h1>
+            <p>There are many other elements in HTML for formatting text, which we didn't get to in the HTML text fundamentals article. The elements described in this article are less known, but still useful to know about (and this is still not a complete list by any means). Here you'll learn about marking up quotations, description lists, computer code and other related text, subscript and superscript, contact information, and more.</p>
+            <p>In HTML text fundamentals, we walked through how to mark up basic lists in HTML, but we didn't mention the third type of list you'll occasionally come across — description lists. The purpose of these lists is to mark up a set of items and their associated descriptions, such as terms and definitions, or questions and answers. Let's look at an example of a set of terms and definitions:</p>
+            <p>Structured content makes the reading experience easier and more enjoyable.
+
+                In HTML, each paragraph has to be wrapped in a element, like so:</p>
+                <code> <span>I am a paragraph, oh yes I am</span></code>
+                <p>Each heading has to be wrapped in a heading element:</p>
+                <code class="heading-wrap"> I am the title of the story. </code>
+        </section>
+        <section class="main-section" id="HTMLtables"><h1>HTML Tables</h1>
+        <p>A very common task in HTML is structuring tabular data, and it has a number of elements and attributes for just this purpose. Coupled with a little CSS for styling, HTML makes it easy to display tables of information on the web such as your school lesson plan, the timetable at your local swimming pool, or statistics about your favorite dinosaurs or football team. This module takes you through all you need to know about structuring tabular data using HTML.</p>
+    <p>This article gets you started with HTML tables, covering the very basics such as rows and cells, headings, making cells span multiple columns and rows, and how to group together all the cells in a column for styling purposes.</p>
+      <ol>
+          <li>First of all, make a local copy of blank-template.html and minimal-table.css in a new directory on your local machine.</li>
+          <li>The content of every table is enclosed by these two tags :  Add these inside the body of your HTML.</li>
+          <li>The smallest container inside a table is a table cell, which is created by a element ('td' stands for 'table data'). Add the following inside your table tags:</li>
+        </ol>
+           <code> Hi, I'm your first cell.</code>
+          <p class="li-wrap">If we want a row of four cells, we need to copy these tags three times. Update the contents of your table to look like so:</p>
+          
+          <code> I'm your second cell.</code><br>
+          <code> Hi, I'm your third cell. </code><br>
+          <code> Hi, I'm your fourth cell.</code><br>
+      
+</section>
+    <section  class="main-section" id="HTMLtablebasics"><h1>HTML table basics</h1>
+        <p>HTML table basics This article gets you started with HTML tables, covering the very basics such as rows and cells, headings, making cells span multiple columns and rows, and how to group together all the cells in a column for styling purposes.</p>
+    <p>A table is a structured set of data made up of rows and columns (tabular data). A table allows you to quickly and easily look up values that indicate some kind of connection between different types of data, for example a person and their age, or a day of the week, or the timetable for a local swimming pool.</p></section>
+ </main>
+  </div>
+</body>
+</html>
